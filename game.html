@@ -1,0 +1,40 @@
+<!--
+Build: 777010
+Author: B1akF1Re23, nardoz0918, Rahios
+-->
+
+<ul id="nav">
+	<li><a value="home" onclick="loadHome()" class="option"><span>Home</span></a></li>
+	<li><a value="game" class="activeOption"><span>Game</span></a></li>
+	<li><a value="about" onclick="loadAbout()" class="option"><span>About</span></a></li>
+	<li><a value="gallery" onclick="loadGallery()" class="option"><span>Gallery</span></a></li>
+</ul>
+
+<div id="game" class="panel">
+	<h2 class="content">The Game</h2>
+	<div id="gameContainer" align="center">
+		
+	</div>
+</div>
+
+<div class="modal" id="FormModal">
+	<!-- Modal Content -->
+  <div class="modal-content" id="formContent">
+  	<span>
+  		Inserire nome: <input type="text" name="name" maxlength="3" id="newName"><br>
+  		<button onclick="closeFormModal()" > <span>OK!</span></button>
+  	</span>
+  </div>
+
+</div>
+
+<div id="RankModal" class="modal">
+	
+  <!-- Modal content -->
+  <div class="modal-content" id="rankContent">
+  	<div id="rank"></div>
+  	<button onclick="closeRank()">Close</button>
+  </div>
+
+
+</div>

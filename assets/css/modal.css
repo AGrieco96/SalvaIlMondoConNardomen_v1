@@ -1,0 +1,73 @@
+/*
+Build: 777010
+Author: B1akF1Re23, nardoz0918, Rahios
+*/
+
+@font-face{
+    font-family: aaa;
+    src: url("images/prova.ttf");
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 40px; /* Location of the box */
+    left: 17%;
+    top: 20%;
+    width: 66%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+
+}
+/* Modal Content */
+#rankContent {
+    background-image: url("images/modal.jpg");
+    background-size: cover;
+    background-image: no-repeat;
+    color: black;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    text-align: center;
+}
+
+#formContent{
+    height: 250px;
+    width: 500px;
+    margin: auto;
+    color: white;
+    background-color: black;
+    text-align: center;  
+}
+
+#formContent span{
+    font-size: 32px;
+    position: relative;
+    top: 30%;
+}
+
+#formContent span button{
+    margin-top: 30px;
+    font-size: 15px;
+    background-color: pink;
+}
+
+#formContent span button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#formContent span button span{
+    font-family: aaa;
+}
+
+#formContent span input{
+    height:22px;
+    width: 70px;
+    position: relative;
+    bottom: 3px;
+    font-size: 22px;
+    font-family: aaa;
+    text-align: center;
+}
